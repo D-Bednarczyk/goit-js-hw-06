@@ -28,11 +28,11 @@ elBoxesDiv.style.height = "30px";
 elBoxesDiv.style.width = "30px";
 elBoxesDiv.style.backgroundColor = getRandomHexColor();
  */
+//<div style="height: 30px; width: 30px; background-color: rgb(66, 201, 148);"></div>
 
 /* elInput.addEventListener("input", (event) => {
   //return event.currentTarget.value;
 }); */
-//<div style="height: 30px; width: 30px; background-color: rgb(66, 201, 148);"></div>
 
 elBtnCreate.addEventListener("click", () => {
   elBoxesDiv.innerHTML = createBoxes(elInput.value);
